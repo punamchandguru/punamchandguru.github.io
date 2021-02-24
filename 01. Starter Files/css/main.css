@@ -1,0 +1,360 @@
+/*
+====================================================================================================================================================================
+                                                    Start Global Properties 
+====================================================================================================================================================================
+*/
+body {
+    font-family: roboto;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background: #172035;
+}
+
+img#logo { 
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: 2em;
+	font-family: 'roboto';
+	margin-right: 20px;
+    padding: 30px;
+}
+
+a:hover {
+    color: white;
+    background: #09568d;  
+    padding: 30px;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Global Properties 
+====================================================================================================================================================================
+*/
+
+/* End Global Properties */
+
+/*
+====================================================================================================================================================================
+                                                    Start Slideshow Properties 
+====================================================================================================================================================================
+*/
+section#content {
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 600px;
+
+}
+
+img#slide {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    background: #172035;
+    color: white;
+    font-size: 2em;
+    border:none;
+}
+
+button:hover {
+    background: #09568d;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Slideshow Properties 
+====================================================================================================================================================================
+*/
+
+
+/*
+====================================================================================================================================================================
+                                                    Start Featured Courses Properties 
+====================================================================================================================================================================
+*/
+
+div.course {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 950px;
+    left: 20px;
+}
+
+div.course2 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 950px;
+    left: 480px;
+}
+
+div.course3 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 950px;
+    left: 930px;
+}
+
+div.course4 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1500px;
+    left: 20px;
+}
+
+    div.course5 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1500px;
+    left: 480px;
+}
+
+    div.course6 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1500px;
+    left: 930px;
+}
+
+
+h6 {
+	font-size: 1em;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Featured Courses Properties 
+====================================================================================================================================================================
+*/
+
+
+/*
+====================================================================================================================================================================
+                                                    Start About Section Properties 
+====================================================================================================================================================================
+*/
+
+section#about {
+    width: 100%;
+    height: 480px;
+    background: #252525;
+    position: absolute;
+    top: 2020px;
+    left: 0;
+}
+
+div.about {
+	color: white;
+	text-align: center;
+}
+
+div.students {
+    width: 350px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 50px;
+}
+
+div.reviews {
+    width: 350px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 500px;
+} 
+
+div.courses {
+    width: 350px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 950px;
+}
+
+
+
+/*
+====================================================================================================================================================================
+                                                    End About Section Properties 
+====================================================================================================================================================================
+*/
+
+/*
+====================================================================================================================================================================
+                                                    Start Learn Tech Section Properties 
+====================================================================================================================================================================
+*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+div.learntechnow {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 2700px;
+    left: 150px;
+}
+
+div.learntechpodcast{
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 2700px;
+    left: 700px;
+}
+
+
+.h1lt {
+    width: 60%;
+    height: 75px;
+    position: absolute;
+    top: 2530px;
+    left: 500px;
+
+}
+section#links {
+    width: 100%;
+    height: 200px;
+    background: #252525;
+    position: absolute;
+    top: 3460px;
+    left: 0;
+}
+div.request{
+    color: white;
+    text-align: center;
+
+}
+div.insta{
+    width: 100px;
+    height: 50px;
+    background: #252525;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+div.fb{
+    width: 100px;
+    height: 50px;
+    background: #252525;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Learn Tech Section Properties 
+====================================================================================================================================================================
+*/
+
+/*
+====================================================================================================================================================================
+                                                    Start Footer
+====================================================================================================================================================================
+*/
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #172035;
+    position: absolute;
+    top: 3670px;
+    left: 0;
+}
+
+p#footer {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 1em;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Footer
+====================================================================================================================================================================
+*/
