@@ -17,7 +17,7 @@ img#logo {
     margin-left: 100px;
     margin-right: 100px;
     position: absolute;
-    top: 17px;
+    top: 4px;
     left: 0;
 }
 
@@ -30,7 +30,6 @@ nav {
 a {
 	color: white;
 	text-decoration: none;
-	font-weight: 2em;
 	font-family: 'roboto';
 	margin-right: 20px;
     padding: 30px;
@@ -56,9 +55,10 @@ a:hover {
 ====================================================================================================================================================================
 */
 section#content {
+    width: 100%;
     color: white;
     position: absolute;
-    top: 400px;
+    top: 230px;
     left: 600px;
 
 }
@@ -105,6 +105,9 @@ p {
                                                     Start Featured Courses Properties 
 ====================================================================================================================================================================
 */
+section#courses{
+    width: 100%;
+}
 
 div.course {
     width: 400px;
@@ -112,8 +115,8 @@ div.course {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 1244px;
-    left: 400px;
+    top: 950px;
+    left: 20px;
 }
 
 div.course2 {
@@ -122,8 +125,8 @@ div.course2 {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 1244px;
-    left: 850px;
+    top: 950px;
+    left: 480px;
 }
 
 div.course3 {
@@ -132,9 +135,40 @@ div.course3 {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 1244px;
-    left: 1300px;
+    top: 950px;
+    left: 930px;
 }
+
+div.course4 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1500px;
+    left: 20px;
+}
+
+    div.course5 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1500px;
+    left: 480px;
+}
+
+    div.course6 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1500px;
+    left: 930px;
+}
+
 
 h6 {
 	font-size: 1em;
@@ -155,10 +189,10 @@ h6 {
 
 section#about {
     width: 100%;
-    height: 509px;
+    height: 480px;
     background: #252525;
     position: absolute;
-    top: 1800px;
+    top: 2020px;
     left: 0;
 }
 
@@ -168,48 +202,39 @@ div.about {
 }
 
 div.students {
-    width: 300px;
+    width: 350px;
     height: 200px;
     background: black;
     text-align: center;
     color: white;
     position: absolute;
     top: 212px;
-    left: 250px;
+    left: 20px;
 }
 
 div.reviews {
-    width: 300px;
+    width: 350px;
     height: 200px;
     background: black;
     text-align: center;
     color: white;
     position: absolute;
     top: 212px;
-    left: 600px;
+    left: 500px;
 } 
 
 div.courses {
-    width: 300px;
+    width: 350px;
     height: 200px;
     background: black;
     text-align: center;
     color: white;
     position: absolute;
     top: 212px;
-    left: 951px;
+    left: 950px;
 }
 
-div.content {
-    width: 300px;
-    height: 200px;
-    background: black;
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: 212px;
-    left: 1301px;
-}
+
 
 /*
 ====================================================================================================================================================================
@@ -222,6 +247,23 @@ div.content {
                                                     Start Learn Tech Section Properties 
 ====================================================================================================================================================================
 */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
 div.learntechnow {
     width: 400px;
@@ -229,35 +271,60 @@ div.learntechnow {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 2500px;
-    left: 400px;
+    top: 2700px;
+    left: 150px;
 }
 
-div.learntechpodcast {
-    width: 400px;
+div.learntechpodcast{
     height: 500px;
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 2500px;
-    left: 850px;
+    top: 2700px;
+    left: 700px;
 }
 
-div.learntechblog {
-    width: 400px;
-    height: 500px;
-    background: white;
-    border: 1px solid transparent;
-    position: absolute;
-    top: 2500px;
-    left: 1300px;
-}
 
 .h1lt {
-
+    width: 60%;
+    height: 75px;
     position: absolute;
-    top: 2320px;
-    left: 614px;
+    top: 2530px;
+    left: 500px;
+
+}
+section#links {
+    width: 100%;
+    height: 200px;
+    background: #252525;
+    position: absolute;
+    top: 3460px;
+    left: 0;
+}
+div.request{
+    color: white;
+    text-align: center;
+
+}
+div.insta{
+    width: 100px;
+    height: 50px;
+    background: #252525;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+div.fb{
+    width: 100px;
+    height: 50px;
+    background: #252525;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 800px;
 
 }
 
@@ -277,15 +344,23 @@ footer {
     width: 100%;
     height: 80px;
     background: #172035;
+    top: 3670px;
+    left: 0px
+}
+
+img#logos { 
+    margin-left: 100px;
+    margin-right: 100px;
     position: absolute;
-    top: 3100px;
+    top: 4px;
     left: 0;
+}
 }
 
 p#footer {
     text-align: center;
     color: white;
-    margin-top: 32px;
+    margin-top: 40px;
     font-size: 1em;
 }
 
